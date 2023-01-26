@@ -77,13 +77,24 @@ overflow: auto;
     border-color: black;
     border-width: 2px;
     border-style: solid;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 .pe{
-    width: 50%;
+    width: 70%;
 }
 
 .img1{
-    width: 10%;
-    height: 100px;
+    width: 17%;
+    height: 160px;
+}
+h3{
+    width: 100%;
+}
+h4{
+    width: 100%;
 }
 
