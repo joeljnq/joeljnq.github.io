@@ -1,11 +1,29 @@
+@font-face {
+    font-family: "titulo";
+    src: url(/font/MkLatinoPlain.ttf);
+    font-style: normal;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+body{
+    background-color: #bcbfa3;
+    color: black;
+}
+article{
+    font-family: 'Montserrat', sans-serif;
+
+}
 .navegador {
     /* esto es un LI de la clase navegador */
     list-style: none;
     margin-left: 20px;
     border-radius: 10px;
     padding: 5px;
+    font-family: "titulo";
+}
+h1{
+    font-family: "titulo";
 }
 
 .head {
@@ -27,12 +45,45 @@
 a:hover, a:focus { 
     background-size: 100% 2px;
 }
+#galeria{
+    border-radius: 10px;
+}
 .galery{
 display: flex;
 flex-wrap: wrap;
+height: 300px;
+overflow: auto;
 }
 .gal{ /*tamaño de imagen de la galeria*/
     width:40%;
     height: 350px;
     margin: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
 }
+.gal:hover::before{
+    content: "Haz clic para ver más";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 10px;
+  display: none;
+}
+.desc{
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.pe{
+    width: 50%;
+}
+
+.img1{
+    width: 10%;
+    height: 100px;
+}
+
