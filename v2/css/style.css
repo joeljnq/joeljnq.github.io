@@ -6,14 +6,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-body{
+body {
     background-color: #bcbfa3;
     color: black;
 }
-article{
+
+article {
     font-family: 'Montserrat', sans-serif;
 
 }
+
 .navegador {
     /* esto es un LI de la clase navegador */
     list-style: none;
@@ -22,7 +24,8 @@ article{
     padding: 5px;
     font-family: "titulo";
 }
-h1{
+
+h1 {
     font-family: "titulo";
 }
 
@@ -40,33 +43,41 @@ h1{
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: 1s;
- 
+
 }
-a:hover, a:focus { 
+
+a:hover,
+a:focus {
     background-size: 100% 2px;
 }
-#galeria{
+
+#galeria {
     border-radius: 10px;
 }
-.galery{
-display: flex;
-flex-wrap: wrap;
-height: 300px;
-overflow: auto;
-justify-content: center;
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: center;
+    height: 1200px;
 }
-.gal{ /*tamaño de imagen de la galeria*/
-    width:40%;
+
+.gal {
+    /*tamaño de imagen de la galeria*/
+    width: 40%;
     height: 350px;
     margin: 20px;
     border-radius: 10px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     transition: 1s;
 }
-.gal:hover{
- transform: scale(1.1);
+
+.gal:hover {
+    transform: scale(1.1);
 }
-.desc{
+
+.desc {
     display: flex;
     border-color: black;
     border-width: 2px;
@@ -78,60 +89,86 @@ justify-content: center;
     border-radius: 10px;
     transition: 2s;
 }
-.desc:hover{
+
+.desc:hover {
     color: white;
 }
-.pe{
+
+.pe {
     width: 80%;
     font-size: 30px;
 }
 
-.img1{
+.img1 {
     width: 17%;
     height: 240px;
 }
-h3{
+
+h3 {
     width: 100%;
-}
-h4{
-    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 30px;
 }
 
-li{
+h4 {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+li {
     list-style: none;
     margin-left: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
-a:hover{
+
+a:hover {
     background-color: beige;
 }
 
-.dir{
-display: flex;
-flex-wrap: wrap;
-}
-
-.reparto{
+.reparto {
     display: flex;
-    overflow-x: scroll;
-    height: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.personajes{
-
-border-color:black;
-border-width: 4px;
-border-style: solid;    
-margin-left:10px;
-width:70%;
-transition: 1s;
+.dir {
+    display: flex;
+    flex-wrap: wrap;
 }
-.personajes:hover{
-    background-image: url(/v2/imagenes/nolan_wash.jpg);
-    background-repeat: cover no-repeat;
 
+.personajes {
+    display: flex;
+    width: 70%;
+    margin: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.personaje{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.perep {
+    font-size: 30px;
+}
+.imgperso{
+    width: 100%;
+
+}
+
+table{
+width: 50%;
+height: 200px;
+align-content: center;
+position: relative;
+left: 400px;
 }
