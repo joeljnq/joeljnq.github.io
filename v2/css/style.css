@@ -223,10 +223,23 @@ input{
     height: 20px;
     border-color: #66A5AD;
     border-width: 3px;
+    color: green;
 }
 textarea{
     width: 80%;
     height: 60px;
     border-color: #66A5AD;
     border-width: 3px; 
+    color: green;
+}
+
+.fin{
+    background-color: aliceblue;
+    width: 30%
+}
+
+.mezfin{
+    display: flex;
+    width: 100%;
+
 }
