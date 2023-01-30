@@ -43,7 +43,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: 1s;
-
+    font-size: 22px;
 }
 
 a:hover,
@@ -170,5 +170,12 @@ width: 50%;
 height: 200px;
 align-content: center;
 position: relative;
-left: 400px;
+left: 300px;
+}
+
+.headwave{
+    background-color: #66A5AD;
+}
+.bodysea{
+    background-color: #C4DFE6;
 }
