@@ -51,10 +51,6 @@ a:focus {
     background-size: 100% 2px;
 }
 
-#galeria {
-    border-radius: 10px;
-}
-
 .galery {
     display: flex;
     flex-wrap: wrap;
@@ -178,4 +174,59 @@ left: 300px;
 }
 .bodysea{
     background-color: #C4DFE6;
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+video{
+    width: 30%;
+}
+iframe{
+    width: 40%;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+form{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+.preguntas{
+width: 44%;  
+margin: 10px;
+border-radius: 10px;
+
+}
+#opinion{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 80%;
+    height: 20px;
+    border-color: #66A5AD;
+    border-width: 3px;
+}
+textarea{
+    width: 80%;
+    height: 60px;
+    border-color: #66A5AD;
+    border-width: 3px; 
 }
