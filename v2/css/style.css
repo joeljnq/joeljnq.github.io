@@ -66,11 +66,12 @@ a:focus {
     margin: 20px;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5);
-    transition: 1s;
+ 
 }
 
 .gal:hover {
     transform: scale(1.1);
+    transition: 1s;
 }
 
 .desc {
