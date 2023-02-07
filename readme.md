@@ -1,1 +1,1 @@
-![Version1](./v1/index.html)
+![Version1](https://joeljnq.github.io/v1/index.html)
