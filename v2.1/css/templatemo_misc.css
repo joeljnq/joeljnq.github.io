@@ -435,7 +435,3 @@ div.dark_rounded #pp_full_res .pp_inline, div.dark_square #pp_full_res .pp_inlin
 .pp_top .pp_right, .pp_bottom .pp_right { height: 20px; left: auto; position: absolute; right: 0; top: 0; width: 20px; }
 
 .pp_fade, .pp_gallery li.default a img { display: none; }
-
-li{
-  list-style: none;
-}

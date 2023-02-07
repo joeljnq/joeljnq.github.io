@@ -132,7 +132,7 @@ a.menu-toggle-btn i { line-height: 60px; }
 .story-image img { width: 100%; height: auto; }
 
 .service-item { background-color: #974dea; color: white; }
-.service-item .service-icon { width: 25%;float:left; overflow: hidden; display: inline-block; text-align: center; margin-top: 30px; height: 100%; }
+.service-item .service-icon { width: 25%; float: left; overflow: hidden; display: inline-block; text-align: center; margin-top: 30px; height: 100%; }
 .service-item .service-content { width: 75%; overflow: hidden; text-align: center; padding: 20px 20px 20px 0; }
 .service-item .service-content h3 { margin: 0; font-size: 20px; }
 
@@ -174,30 +174,6 @@ a.menu-toggle-btn i { line-height: 60px; }
 .bottom-footer a { color: white; }
 .bottom-footer .credits { text-align: right; }
 
-
-table{
-  width: 70%;
-  height: 200px;
-  align-content: center;
- 
-  left: 50%;
-  margin-bottom: 20px;
-  }
-
-.headwave{
-    background-color: #66A5AD;
-}
-.bodysea{
-    background-color: #C4DFE6;
-}
-
-#services{
-  margin-top: 20px;
-}
-
-#portfolio{
-  margin-top: 20px;
-}
 @media (max-width: 991px) { #main-content { width: 100%; }
   .first-footer { border-left: 0; }
   .flexslider .slides, .flexslider, .main-slider { height: auto; }
