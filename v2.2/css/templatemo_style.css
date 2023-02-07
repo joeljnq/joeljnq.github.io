@@ -91,9 +91,9 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .flexslider .slides { height: 570px; }
 
-.slider-caption { position: absolute; vertical-align: middle; width: 100%; text-align: center; height: 100; z-index: 8; color: white; top: 200px; }
-.slider-caption h2 { font-size: 48px; text-transform: uppercase; font-weight: 800; margin-bottom: 30px; }
-.slider-caption p { font-size: 16px; text-transform: uppercase; letter-spacing: 2px; width: 50%; margin: 0 auto 30px auto; line-height: 1.8em; }
+.principal { position: absolute; vertical-align: middle; width: 100%; text-align: center; height: 100; z-index: 8; color: white; top: 200px; }
+.principal h2 { font-size: 48px; text-transform: uppercase; font-weight: 800; margin-bottom: 30px; }
+.principal p { font-size: 16px; letter-spacing: 2px; width: 50%; margin: 0 auto 30px auto; line-height: 1.8em; }
 
 .flexslider { background-color: black; height: 570px; overflow: hidden; margin: 0; }
 
@@ -197,6 +197,15 @@ table{
 
 #portfolio{
   margin-top: 20px;
+}
+
+.p-footer{
+  color: white;
+}
+
+iframe{
+  width: 100%;
+  height: 300px;
 }
 @media (max-width: 991px) { #main-content { width: 100%; }
   .first-footer { border-left: 0; }
