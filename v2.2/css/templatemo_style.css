@@ -207,6 +207,10 @@ iframe{
   width: 100%;
   height: 300px;
 }
+
+video{
+  width: 50%;
+}
 @media (max-width: 991px) { #main-content { width: 100%; }
   .first-footer { border-left: 0; }
   .flexslider .slides, .flexslider, .main-slider { height: auto; }
