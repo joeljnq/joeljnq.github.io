@@ -4,60 +4,73 @@
 <head>
     <meta name="author" content="Joel Ninahuaman">
     <meta charset="utf-8">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <title>Heroe a rayas</title>
 </head>
 
 <body>
     <nav>
-        <ul class="head">
-            <li class="navegador"><a href="#descripcion" class="nave"> Descripción</a></li>
-            <li class="navegador"><a href="#director" class="nave">Director</a></li>
-            <li class="navegador"><a href="#personaje" class="nave">Reparto</a></li>
-            <li class="navegador"> <a href="#plataformas" class="nave">Plataformas de Streaming</a></li>
-            <li class="navegador"><a href="#galeria" class="nave">galeria</a></li>
-            <li class="navegador"><a href="#opinion" class="nave">Opiniones</a>
-            <li class="navegador"> <a href="#links" class="nave">saber mas</a></li>
+        <ul class="flex items-center">
+            <li class="m-8 bg-teal-600"><a href="#descripcion" class="nave"> Descripción</a></li>
+            <li class="m-8 bg-teal-600"><a href="#director" class="nave">Director</a></li>
+            <li class="m-8 bg-teal-600"><a href="#personaje" class="nave">Reparto</a></li>
+            <li class="m-8 bg-teal-600"> <a href="#plataformas" class="nave">Plataformas de Streaming</a></li>
+            <li class="m-8 bg-teal-600"><a href="#galeria" class="nave">galeria</a></li>
+            <li class="m-8 bg-teal-600"><a href="#opinion" class="nave">Opiniones</a>
+            <li class="m-8 bg-teal-600"> <a href="#links" class="nave">saber mas</a></li>
         </ul>
     </nav>
     <article>
         <header>
-            <h1>Heroe a Rayas</h1>
+            <h1 class="text-2xl text-center">Heroe a Rayas</h1>
         </header>
-
         <section id="descripcion">
-            <div class="desc">
-                <h3>Descripción</h3>
-                <p class="pe">Durante una terrible tormenta un circo pierde accidentalmente a una pequeña cebra. El
-                    criador de
-                    caballos Nolan Walsh rescata al potrillo y se lo lleva a casa. Walsh entrenaba caballos de carreras
-                    con éxito, pero actualmente lleva una vida tranquila con su hija en su granja de Kentucky. En cuanto
-                    Rayas ve la pista de carreras que hay al lado la de la granja sabe que ha encontrado su meta.</p>
-                <img src="imagenes/heroe.jpg" alt="rayas" class="img1">
+            <div class="flex justify-center align-center m-10">
+                <div class="border-2 w-9/12 flex justify-center flex-wrap p-10">
+                    <h3 class="text-xl text-center">Descripción</h3>
+                    <p class="font-serif">Durante una terrible tormenta un circo pierde accidentalmente a una pequeña
+                        cebra. El
+                        criador de
+                        caballos Nolan Walsh rescata al potrillo y se lo lleva a casa. Walsh entrenaba caballos de
+                        carreras
+                        con éxito, pero actualmente lleva una vida tranquila con su hija en su granja de Kentucky. En
+                        cuanto
+                        Rayas ve la pista de carreras que hay al lado la de la granja sabe que ha encontrado su meta.
+                    </p>
+                    <img src="imagenes/heroe.jpg" alt="rayas" class="img1">
+                </div>
             </div>
         </section>
 
 
         <section id="director">
-            <div class="desc">
-            <h3>Director</h3>
-            <h4>FREDERIK DU CHAU</h4>
-      
-                <img src="imagenes/frederik.jpg" alt="director" class="img1">
-                <p class="pe">Du Chau asistió a la Academia de Bellas Artes en su ciudad natal de Gante, donde estudió
-                    cine y se
-                    especializó en animación con Raoul Servais. Después de graduarse, trabajó para Walt Disney Animation
-                    France y luego como animador independiente y dirigió varios comerciales locales, combinando acción
-                    en
-                    vivo y animación.</p>
-                <p>Peliculas que dirigió</p>
-                <ul>
-                    <li><a href="https://www.imdb.com/title/tt0300227/" target="_blank">el misterio del cordero</a></li>
-                    <li><a href="https://www.filmaffinity.com/es/film731048.html" target="_blank">En búsqueda de
-                            Camelot</a>
-                    </li>
-                    <li><a href="https://www.lahiguera.net/cinemania/pelicula/3496/" target="_blank">superdog</a></li>
-                    <li><a href="https://www.imdb.com/video/vi1466611737/" target="_blank">los krostons</a></li>
-                </ul>
+            <div class="flex justify-center align-center m-10">
+                <div class="border-2 w-9/12 flex justify-center flex-wrap p-10">
+                    <h3 class="text-xl text-center w-full">Director</h3>
+                    <h4 class="text-xl text-center w-full">FREDERIK DU CHAU</h4>
+                    <p class="font-serif">Du Chau asistió a la Academia de Bellas Artes en su ciudad natal de Gante,
+                        donde
+                        estudió
+                        cine y se
+                        especializó en animación con Raoul Servais. Después de graduarse, trabajó para Walt Disney
+                        Animation
+                        France y luego como animador independiente y dirigió varios comerciales locales, combinando
+                        acción
+                        en
+                        vivo y animación.</p>
+                        <img src="imagenes/frederik.jpg" alt="director" class="img1">
+                    <p>Peliculas que dirigió</p>
+                    <ul>
+                        <li><a href="https://www.imdb.com/title/tt0300227/" target="_blank">el misterio del cordero</a>
+                        </li>
+                        <li><a href="https://www.filmaffinity.com/es/film731048.html" target="_blank">En búsqueda de
+                                Camelot</a>
+                        </li>
+                        <li><a href="https://www.lahiguera.net/cinemania/pelicula/3496/" target="_blank">superdog</a>
+                        </li>
+                        <li><a href="https://www.imdb.com/video/vi1466611737/" target="_blank">los krostons</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -124,46 +137,52 @@
         </section>
         <section id="plataformas">
             <h3>Plataformas de streaming</h3>
-            <table border="solid">
+
+            <table class="border-2 border-dashed border-gray-400">
                 <thead>
                     <tr>
-                        <th colspan="2">Link</th>
-                        <th>Precio</th>
-                        <th>Valoración</th>
+                        <th colspan="2" class="border px-4 py-2">Link</th>
+                        <th class="border px-4 py-2">Precio</th>
+                        <th class="border px-4 py-2">Valoración</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td rowspan="3"> Comprar</td>
-                        <td><a href="https://www.amazon.com/gp/video/detail/0LTQ8DZX8610TBLZ743RE6Y70M/ref=atv_dl_rdr"
+                        <td rowspan="3" class="border px-4 py-2"> Comprar</td>
+                        <td class="border px-4 py-2"><a
+                                href="https://www.amazon.com/gp/video/detail/0LTQ8DZX8610TBLZ743RE6Y70M/ref=atv_dl_rdr"
                                 target="_blank">Amazon</a></td>
-                        <td>7,71€</td>
-                        <td>4.5/5</td>
+                        <td class="border px-4 py-2">7,71€</td>
+                        <td class="border px-4 py-2">4.5/5</td>
                     </tr>
                     <tr>
-                        <td><a href="https://www.directv.com/movies/Racing-Stripes-Q3NoT3JlN1UxSEl0dWc5UU5Ramg5Zz09"
+                        <td class="border px-6 py-2"><a
+                                href="https://www.directv.com/movies/Racing-Stripes-Q3NoT3JlN1UxSEl0dWc5UU5Ramg5Zz09"
                                 target="_blank">directv</a></td>
-                        <td>9,99€</td>
-                        <td>5/10</td>
+                        <td class="border px-4 py-2">9,99€</td>
+                        <td class="border px-4 py-2">5/10</td>
                     </tr>
                     <tr>
-                        <td> <a href="https://play.google.com/store/movies/details/Racing_Stripes?gl=US&hl=en&id=o8BZukk4zYc&pli=1"
+                        <td class="border px-4 py-2"> <a
+                                href="https://play.google.com/store/movies/details/Racing_Stripes?gl=US&hl=en&id=o8BZukk4zYc&pli=1"
                                 target="_blank">Google Play</a></td>
-                        <td>7,71€</td>
-                        <td>4.6/5</td>
+                        <td class="border px-4 py-2">7,71€</td>
+                        <td class="border px-4 py-2">4.6/5</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">Alquilar</td>
-                        <td><a href="https://www.amazon.com/gp/video/detail/0LTQ8DZX8610TBLZ743RE6Y70M/ref=atv_dl_rdr"
+                        <td rowspan="2" class="border px-4 py-2">Alquilar</td>
+                        <td class="border px-4 py-2"><a
+                                href="https://www.amazon.com/gp/video/detail/0LTQ8DZX8610TBLZ743RE6Y70M/ref=atv_dl_rdr"
                                 target="_blank">Amazon</a></td>
-                        <td>2,88€</td>
-                        <td>4.6/5</td>
+                        <td class="border px-4 py-2">2,88€</td>
+                        <td class="border px-4 py-2">4.6/5</td>
                     </tr>
                     <tr>
-                        <td><a href="https://www.microsoft.com/en-us/p/racing-stripes/8d6kgwzl5229?activetab=pivot%3aoverviewtab"
+                        <td class="border px-4 py-2"><a
+                                href="https://www.microsoft.com/en-us/p/racing-stripes/8d6kgwzl5229?activetab=pivot%3aoverviewtab"
                                 target="_blank">Microsoft</a></td>
-                        <td>2,88€</td>
-                        <td>4/5</td>
+                        <td class="border px-4 py-2">2,88€</td>
+                        <td class="border px-4 py-2">4/5</td>
                     </tr>
                 </tbody>
             </table>
