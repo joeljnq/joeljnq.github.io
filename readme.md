@@ -2,7 +2,7 @@
 - [version1](https://joeljnq.github.io/v1/index.html)
 - [version2.1](https://joeljnq.github.io/v2.1/index.html)
 - [version2.2](https://joeljnq.github.io/v2.2/index.html)
-- [pag con tailwind](https://joeljnq.github.io/tailwind/index.html)
+- [pag con tailwind](https://joeljnq.github.io/tailwind/index.html) no esta acabada!!! 
 
 propiedades usadas con css:
 1. background-color
