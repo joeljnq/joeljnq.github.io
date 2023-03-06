@@ -5,7 +5,9 @@
         <link>https://www.summitdaily.com/news/racing-stripes-is-an-impossible-movie/</link>
         <description>Es una paágina que publica noticias sobre </description>
         <item>
-        
+        <title>primera noticia</title>
+        <description>esto es uan noticia de prueba</description>
+        <pubDate>06/03/2023</pubDate>
         </item>
     </channel>
    
