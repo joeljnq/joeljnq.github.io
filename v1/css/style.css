@@ -67,7 +67,7 @@ a:focus {
     margin: 20px;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5);
- 
+
 }
 
 .gal:hover {
@@ -149,7 +149,7 @@ a:hover {
     align-content: center;
 }
 
-.personaje{
+.personaje {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -158,94 +158,103 @@ a:hover {
 .perep {
     font-size: 30px;
 }
-.imgperso{
+
+.imgperso {
     width: 100%;
 
 }
 
-table{
-width: 50%;
-height: 200px;
-align-content: center;
-position: relative;
-left: 300px;
+table {
+    width: 50%;
+    height: 200px;
+    align-content: center;
+    position: relative;
+    left: 300px;
 }
 
-.headwave{
+.headwave {
     background-color: #66A5AD;
 }
-.bodysea{
+
+.bodysea {
     background-color: #C4DFE6;
 }
 
-.media{
+.media {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
 }
 
-video{
+video {
     width: 30%;
 }
-iframe{
+
+iframe {
     width: 40%;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     justify-content: center;
     position: relative;
 }
-form{
+
+form {
     align-self: center;
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     justify-content: center;
 }
-.preguntas{
-width: 44%;  
-margin: 10px;
-border-radius: 10px;
+
+.preguntas {
+    width: 44%;
+    margin: 10px;
+    border-radius: 10px;
 
 }
-#opinion{
+
+#opinion {
     display: flex;
     justify-content: center;
     margin: 30px;
 }
-label{
+
+label {
     font-size: 20px;
 }
-input{
+
+input {
     width: 80%;
     height: 20px;
     border-color: #66A5AD;
     border-width: 3px;
     color: green;
 }
-textarea{
+
+textarea {
     width: 80%;
     height: 60px;
     border-color: #66A5AD;
-    border-width: 3px; 
+    border-width: 3px;
     color: green;
 }
 
-.fin{
+.fin {
     background-color: aliceblue;
     width: 30%
 }
 
-.mezfin{
+.mezfin {
     display: flex;
     width: 100%;
 
 }
 
-#links{
+#links {
     font-size: 20px;
-}   
+}
