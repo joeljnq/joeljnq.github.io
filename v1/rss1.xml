@@ -12,18 +12,30 @@
                 City teen, Ray
                 (Fanning), who is transitioning from female to male and her mother, Maggie (Watts),
                 who must come to
-                terms with Ray’s transition. Meanwhile, Maggie’s mother, Dolly (Sarandon), a music
+                terms with Rays transition. Meanwhile, Maggies mother, Dolly (Sarandon), a music
                 manager who lives
-                with her lesbian partner, Frances, has trouble understanding Ray’s decision and
-                Maggie’s inability to
+                with her lesbian partner, Frances, has trouble understanding Rays decision and
+                Maggies inability to
                 move out of the house she grew up in. Big Beach co-founders Peter Saraf and Mar</description>
             <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+            <link>file:///E:/JOEL/DAW/LENGUAJES%20DE%20MARCAS/Tema2_HTLM/proyectoHTML/joeljnq.github.io/v1/news/new1.html</link>
+            <category>Movies</category>
+            <enclosure url="http://ejemplo.com/audio.mp3" length="123456" type="audio/mp3"/>
+            <guid isPermaLink="false">123412312</guid>
+            <author>joelxdnq@gmail.com (joel)</author>
+        
         </item>
         <item>
-            <title>‘Big Bang Theory’s’ Kunal Nayyar to Voice Dog in ‘A Bollywoof Tale’</title>
+            <title>Big Bang Theorys Kunal Nayyar to Voice Dog in A Bollywoof Tale</title>
             <description>Kunal Nayyar, from hit show Big Bang Theory, is set to voice a street dog
                 called Santoosh in the upcoming live-action family drama A Bollywoof Tale.</description>
             <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+            <link>file:///E:/JOEL/DAW/LENGUAJES%20DE%20MARCAS/Tema2_HTLM/proyectoHTML/joeljnq.github.io/v1/news/new2.html</link>
+            <category>Movies</category>
+            <enclosure url="http://ejemplo.com/audio.mp3" length="123456" type="audio/mp3"/>
+            <guid isPermaLink="false">234</guid>
+            <author>joelxdnq@gmail.com(joel)</author>
+         
         </item>
         <item>
             <title>Underdog</title>
@@ -36,7 +48,12 @@
                 superhero movies even as it opens the way for clever canine jokes that do make the
                 movie something of an underdog.</description>
             <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+            <link>file:///E:/JOEL/DAW/LENGUAJES%20DE%20MARCAS/Tema2_HTLM/proyectoHTML/joeljnq.github.io/v1/news/new3.html </link>
+            <category>Movies</category>
+            <enclosure url="http://ejemplo.com/audio.mp3" length="123456" type="audio/mp3"/>
+            <guid isPermaLink="false">35234</guid>
+            <author>joelxdnq@gmail.com(joel)</author>
+       
         </item>
     </channel>
-
 </rss>
